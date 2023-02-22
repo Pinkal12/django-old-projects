@@ -1,0 +1,1080 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <!-- icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+
+  <title>Natto</title>
+</head>
+
+<body>
+
+  <!-- first nav-bar start -->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item me-3">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+        <li class="nav-item me-3">
+          <a class="nav-link" href="#"> About Us</a>
+        </li>
+        <li class="nav-item me-3">
+          <a class="nav-link" href="#"> Blog</a>
+        </li>
+        <li class="nav-item me-3">
+          <a class="nav-link" href="#"> Become a Partner</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item me-3">
+            <a class="nav-link" href="#"><i class="bi bi-calendar4-week"></i> Table Bookings </a>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link" href="#"><i class="bi bi-bookmark"></i> Bookmarks</a>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link" href="#"><i class="bi bi-cart-fill"></i> Food Orders</a>
+          </li>
+          <li class="nav-item dropdown me-3">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false"><i class="bi bi-person-circle"></i> John Doe
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+            </ul>
+          </li>
+        </ul>
+    </div>
+    </form>
+    </div>
+  </nav>
+  <!-- first nav-bar end -->
+
+  <!--nav-bar two start -->
+  <nav class="navbar navbar-expand-lg navbar-light ">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img class="w-100" src="images/logo.svg" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto  mb-2 mb-lg-0">
+          <li class="nav-item me-3">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link " href="#">How To Orders?</a>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link" href="#">Recipes</a>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link" href="#">Partner</a>
+          </li>
+          <li class="nav-item dropdown me-3">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Pages
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+            </ul>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link" href="#">Browse Places</a>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link" href="#"><i class="bi bi-search"></i></a>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link" href="#"><i class="bi bi-bell-fill"></i></a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <button type="button" class="btn w-100 main-color-bg text-light" data-bs-toggle="button" autocomplete="off"
+            aria-pressed="true">Become a Partner</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!--nav-bar two end -->
+
+  <!-- Choose, Order and Checkout image section and form start -->
+  <div class="container-fluid" id="main-section">
+    <div class="container">
+      <div class="row">
+        <div class="col py-5 d-none  d-sm-none d-lg-block">
+          <div class="fs-2 text-light fw-bold pt-4">
+            Choose, Order and Checkout
+          </div>
+          <div class="fs-5 text-light pt-4 ">
+            Specify your address to suggest you the fast delivery
+          </div>
+          <div class="text-light pb-4">
+            Get our services from 24 hours.
+          </div>
+          <div>
+            <button type="button" class="btn go-to btn-lg text-light">Go To Meal</button>
+          </div>
+        </div>
+        <div class="col-1">
+        </div>
+        <div class="col p-5">
+          <div class="form-box h-100">
+            <div class="p-5">
+              <form>
+                <div class="mb-3 input-group">
+                  <span class="input-group-text bg-white border-end-0" for="exampleInputloction"><i
+                      class="bi bi-geo-alt-fill"></i></span>
+                  <input type="text" class="form-control border-start-0" id="exampleInputloction"
+                    placeholder="Choose your location">
+                </div>
+                <div class="mb-3 input-group">
+                  <span class="input-group-text bg-white border-end-0" for="exampleInputfood"><i
+                      class="bi bi-earbuds"></i></i></span>
+                  <input type="text" class="form-control border-start-0" id="exampleInputfood"
+                    placeholder="Choose restaurant">
+                </div>
+                <button type="button" class="btn go-to btn-lg text-light ">Find Food</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Choose, Order and Checkout image section and form start -->
+
+  <!-- Browse Places section start -->
+  <div class="container-fluid sct-two pb-4">
+    <div class="text-center pt-4 fs-5">
+      Browse Places
+    </div>
+    <div class="pt-4">
+      <div class="container">
+        <div class="row ">
+          <div class="col text-center mx-auto mb-4 text-muted">
+            <div><i class="bi bi-geo-alt-fill"></i></div> Near By
+          </div>
+          <div class="col text-center mx-auto mb-4 text-muted">
+            <div><i class="bi bi-basket2"></i></div> Desserts & Bakes
+          </div>
+          <div class="col text-center mx-auto mb-4 text-muted">
+            <div><i class="bi bi-cup-fill"></i></div> Cafes & More
+          </div>
+          <div class="col text-center mx-auto mb-4 text-muted">
+            <div><i class="bi bi-calendar4-week"></i></div> Upcoming Events
+          </div>
+          <div class="col text-center mx-auto mb-4 text-muted">
+            <div><i class="bi bi-door-open"></i></div> Newly Opened
+          </div>
+          <div class="col text-center mx-auto mb-4 text-muted">
+            <div><i class="bi bi-cup-straw"></i></div> Drinks & Nightkise
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Browse Places section end -->
+
+
+  <!-- Choose Your Area Restaurant section  start -->
+  <div class="container pt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-4 col-xl-4 col-xxl-4">
+          <div class="row">
+            <div class="col-2">
+              <img src="/images/img_1.svg" class="img-thumbnail w-75" alt="...">
+            </div>
+            <div class="col">
+              <div class="">
+                <h4>Choose Your Area Restaurant</h4>
+                <p>Donec et tellus sed lorem condimentum maximus. Sed tempor, leo tempus condimentum.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 col-xl-4 col-xxl-4">
+          <div class="row">
+            <div class="col-2">
+              <img src="/images/img_2.svg" class="img-thumbnail" alt="...">
+            </div>
+            <div class="col">
+              <div class="">
+                <h4>Choose Food</h4>
+                <p>Donec et tellus sed lorem condimentum maximus. Sed tempor, leo tempus condimentum.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 col-xl-4 col-xxl-4">
+          <div class="row">
+            <div class="col-2">
+              <img src="/images/img_3.svg" class="img-thumbnail" alt="...">
+            </div>
+            <div class="col">
+              <div class="">
+                <h4>Delivery</h4>
+                <p>Donec et tellus sed lorem condimentum maximus. Sed tempor, leo tempus condimentum.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Choose Your Area Restaurant section  end -->
+
+  <!-- Discover New Restaurants & Book Now section -->
+  <div class="text-center pt-5">
+    <h2> Discover New Restaurants & Book Now </h2>
+  </div>
+
+  <div class="container">
+    <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+      <div class="col">
+        <div class="p-3 border bg-light">
+          <div class="row">
+            <div class="col-3">
+              <img src="/images/logo_05.jpg" class="me-2" alt="...">
+            </div>
+            <div class="col-8">
+              <p class="mb-0 pt-3"> Food Roster </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="p-3 border bg-light">
+          <div class="row">
+            <div class="col-3">
+              <img src="/images/logo_04.jpg" class="me-2" alt="...">
+            </div>
+            <div class="col-8">
+              <p class="mb-0 pt-3"> Food Roster </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="p-3 border bg-light">
+          <div class="row">
+            <div class="col-3">
+              <img src="/images/logo_03.jpg" class="me-2" alt="...">
+            </div>
+            <div class="col-8">
+              <p class="mb-0 pt-3"> Food Roster </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="p-3 border bg-light">
+          <div class="row">
+            <div class="col-3">
+              <img src="/images/logo_02.jpg" class="me-2" alt="...">
+            </div>
+            <div class="col-8">
+              <p class="mb-0 pt-3"> Food Roster </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="p-3 border bg-light">
+          <div class="row">
+            <div class="col-3">
+              <img src="/images/logo_01.jpg" class="me-2" alt="...">
+            </div>
+            <div class="col-8">
+              <p class="mb-0 pt-3"> Food Roster </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Discover New Restaurants & Book Now section end-->
+
+  <!-- Order Food Online In Your Area and loction section -->
+  <div class="text-center pt-5">
+    <h2> Order Food Online In Your Area </h2>
+    <h6 class="pt-3"><i class="bi bi-geo-alt-fill main-color"></i> <span class="main-color">New York</span> <span
+        class="text-muted">Change Location</span></h6>
+  </div>
+  <div class="container pt-3">
+    <div class="input-group mb-3 w-25 mx-auto">
+      <input type="text" class="form-control" placeholder="Enter Your Location" aria-label="Recipient's username"
+        aria-describedby="button-addon2">
+      <button class="btn main-color-bg text-light" type="button" id="button-addon2">Search</button>
+    </div>
+  </div>
+
+  <!-- Order Food Online In Your Area and loction section end-->
+
+  <!-- All food card section -->
+
+  <div class="container pt-4">
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <div><img src="images/img-1.jpg" class="card-img-top" alt="..."></div>
+          <div class="position-absolute w-100 card-logo">
+            <img class="ms-3 rounded-2 border-3 border-color" src="images/logo-1.jpg" class="card-img-top" alt="...">
+            <!-- <span class="text-light m-3 fs-5 pb-5 fw-bold">Bonn Burgur</span>  -->
+          </div>
+          <div class="card-body pt-5 text-muted">
+            <div class=""><i class="bi bi-cart-fill"></i> Delivery Free : Free</div>
+            <div class=""><i class="bi bi-alarm"></i> Delivery Time : 30 Min</div>
+            <div class="">
+              <div class="star main-color">
+                <i class=""><i class="bi bi-star-fill"></i></i>
+                <i class=""><i class="bi bi-star-fill"></i></i>
+                <i class=""><i class="bi bi-star-fill"></i></i>
+                <i class=""><i class="bi bi-star-fill"></i></i>
+                <i class=""><i class="bi bi-star-fill"></i></i>
+                <span class=""> 4.5</span>
+                <span class="float-end text-dark"><i class="bi bi-chat-left-fill"></i> 05</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <div><img src="images/img-2.jpg" class="card-img-top" alt="..."></div>
+          <div class="position-absolute w-100 card-logo">
+            <img class="ms-3 rounded-2 border-3 border-color" src="images/logo-2.jpg" class="card-img-top" alt="...">
+            <!-- <span class="text-light m-3 fs-5 pb-5 fw-bold">Two Burgurs</span> -->
+          </div>
+          <div class="card-body pt-5 text-muted">
+            <div class=""><i class="bi bi-cart-fill"></i> Delivery Free : Free</div>
+            <div class=""><i class="bi bi-alarm"></i> Delivery Time : 30 Min</div>
+            <div class="">
+              <div class="star main-color">
+                <i class=""><i class="bi bi-star-fill"></i></i>
+                <i class=""><i class="bi bi-star-fill"></i></i>
+                <i class=""><i class="bi bi-star-fill"></i></i>
+                <i class=""><i class="bi bi-star-fill"></i></i>
+                <i class=""><i class="bi bi-star-fill"></i></i>
+                <span class=""> 4.5</span>
+                <span class="float-end text-dark"><i class="bi bi-chat-left-fill"></i> 05</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <div><img src="images/img-3.jpg" class="card-img-top" alt="..."></div>
+          <div class="position-absolute w-100 card-logo">
+            <img class="ms-3 rounded-2 border-3 border-color" src="images/logo-3.jpg" class="card-img-top" alt="...">
+            <!-- <span class="text-light m-3 fs-5 pb-5 fw-bold">Large Cheese..</span> -->
+          </div>
+          <div class="card-body pt-5 text-muted">
+            <div class=""><i class="bi bi-cart-fill"></i> Delivery Free : Free</div>
+            <div class=""><i class="bi bi-alarm"></i> Delivery Time : 30 Min</div>
+            <div class="">
+              <div class="star main-color">
+                <i class=""><i class="bi bi-star-fill"></i></i>
+                <i class=""><i class="bi bi-star-fill"></i></i>
+                <i class=""><i class="bi bi-star-fill"></i></i>
+                <i class=""><i class="bi bi-star-fill"></i></i>
+                <i class=""><i class="bi bi-star-fill"></i></i>
+                <span class=""> 4.5</span>
+                <span class="float-end text-dark"><i class="bi bi-chat-left-fill"></i> 05</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <div><img src="images/img-4.jpg" class="card-img-top" alt="..."></div>
+          <div class="position-absolute w-100 card-logo">
+            <img class="ms-3 rounded-2 border-3 border-color" src="images/logo-4.jpg" class="card-img-top" alt="...">
+            <!-- <span class="text-light m-3 fs-5 pb-5 fw-bold">Hakka Nood</span> -->
+          </div>
+          <div class="card-body pt-5 text-muted">
+            <div class=""><i class="bi bi-cart-fill"></i> Delivery Free : Free</div>
+            <div class=""><i class="bi bi-alarm"></i> Delivery Time : 30 Min</div>
+            <div class="">
+              <div class="star main-color">
+                <i class=""><i class="bi bi-star-fill"></i></i>
+                <i class=""><i class="bi bi-star-fill"></i></i>
+                <i class=""><i class="bi bi-star-fill"></i></i>
+                <i class=""><i class="bi bi-star-fill"></i></i>
+                <i class=""><i class="bi bi-star-fill"></i></i>
+                <span class=""> 4.5</span>
+                <span class="float-end text-dark"><i class="bi bi-chat-left-fill"></i> 05</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <div><img src="images/img-5.jpg" class="card-img-top" alt="..."></div>
+          <div class="position-absolute w-100 card-logo">
+            <img class="ms-3 rounded-2 border-3 border-color" src="images/logo-5.jpg" class="card-img-top" alt="...">
+            <!-- <span class="text-light m-3 fs-5 pb-5 fw-bold">Cappuccino Coffee</span> -->
+          </div>
+          <div class="card-body pt-5 text-muted">
+            <div class=""><i class="bi bi-cart-fill"></i> Delivery Free : Free</div>
+            <div class=""><i class="bi bi-alarm"></i> Delivery Time : 30 Min</div>
+            <div class="">
+              <div class="star main-color">
+                <i class=""><i class="bi bi-star-fill"></i></i>
+                <i class=""><i class="bi bi-star-fill"></i></i>
+                <i class=""><i class="bi bi-star-fill"></i></i>
+                <i class=""><i class="bi bi-star-fill"></i></i>
+                <i class=""><i class="bi bi-star-fill"></i></i>
+                <span class=""> 4.5</span>
+                <span class="float-end text-dark"><i class="bi bi-chat-left-fill"></i> 05</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <div><img src="images/img-6.jpg" class="card-img-top" alt="..."></div>
+          <div class="position-absolute w-100 card-logo">
+            <img class="ms-3 rounded-2 border-3 border-color" src="images/logo-6.jpg" class="card-img-top" alt="...">
+            <!-- <span class="text-light m-3 fs-5 pb-5 fw-bold">Choclate Cake</span> -->
+          </div>
+          <div class="card-body pt-5 text-muted">
+            <div class=""><i class="bi bi-cart-fill"></i> Delivery Free : Free</div>
+            <div class=""><i class="bi bi-alarm"></i> Delivery Time : 30 Min</div>
+            <div class="">
+              <div class="star main-color">
+                <i class=""><i class="bi bi-star-fill"></i></i>
+                <i class=""><i class="bi bi-star-fill"></i></i>
+                <i class=""><i class="bi bi-star-fill"></i></i>
+                <i class=""><i class="bi bi-star-fill"></i></i>
+                <i class=""><i class="bi bi-star-fill"></i></i>
+                <span class=""> 4.5</span>
+                <span class="float-end text-dark"><i class="bi bi-chat-left-fill"></i> 05</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <div><img src="images/img-7.jpg" class="card-img-top" alt="..."></div>
+          <div class="position-absolute w-100 card-logo">
+            <img class="ms-3 rounded-2 border-3 border-color" src="images/logo-7.jpg" class="card-img-top" alt="...">
+            <!-- <span class="text-light m-3 fs-5 pb-5 fw-bold">Indian Dosa</span> -->
+          </div>
+          <div class="card-body pt-5 text-muted">
+            <div class=""><i class="bi bi-cart-fill"></i> Delivery Free : Free</div>
+            <div class=""><i class="bi bi-alarm"></i> Delivery Time : 30 Min</div>
+            <div class="">
+              <div class="star main-color">
+                <i class=""><i class="bi bi-star-fill"></i></i>
+                <i class=""><i class="bi bi-star-fill"></i></i>
+                <i class=""><i class="bi bi-star-fill"></i></i>
+                <i class=""><i class="bi bi-star-fill"></i></i>
+                <i class=""><i class="bi bi-star-fill"></i></i>
+                <span class=""> 4.5</span>
+                <span class="float-end text-dark"><i class="bi bi-chat-left-fill"></i> 05</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <div><img src="images/img-8.jpg" class="card-img-top" alt="..."></div>
+          <div class="position-absolute w-100 card-logo">
+            <img class="ms-3 rounded-2 border-3 border-color" src="images/logo-8.jpg" class="card-img-top" alt="...">
+            <!-- <span class="text-light m-3 fs-5 pb-5 fw-bold">Double Tikki Burgur
+            </span> -->
+          </div>
+          <div class="card-body pt-5 text-muted">
+            <div class=""><i class="bi bi-cart-fill"></i> Delivery Free : Free</div>
+            <div class=""><i class="bi bi-alarm"></i> Delivery Time : 30 Min</div>
+            <div class="">
+              <div class="star main-color">
+                <i class=""><i class="bi bi-star-fill"></i></i>
+                <i class=""><i class="bi bi-star-fill"></i></i>
+                <i class=""><i class="bi bi-star-fill"></i></i>
+                <i class=""><i class="bi bi-star-fill"></i></i>
+                <i class=""><i class="bi bi-star-fill"></i></i>
+                <span class=""> 4.5</span>
+                <span class="float-end text-dark"><i class="bi bi-chat-left-fill"></i> 05</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="text-center py-5">
+    <button type="button" class="btn main-color-bg  btn-lg text-light rounded-0 ">Submit</button>
+  </div>
+  <!-- All food card section  end-->
+
+  <!-- Order Food Online two card -->
+
+  <div class="container overflow-hidden">
+    <div class="row">
+      <div class="col-12 col-lg-6 col-xl-6 col-xxl-6 pe-0 pe-lg-4 pe-xl-4 pe-xxl-4">
+        <div class="row p-4" id="main-baner">
+          <div class=" text-light fs-4 ">Order Food Online
+            <p class="fs-6 mb-0">Use code to get 50% off upto $5</p>
+            <p class="fs-6">on your next order.</p>
+            <button type="button" class="btn go-to btn-lg text-light">Order Now</button>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-12 col-lg-6 col-xl-6 col-xxl-6 mt-3 mt-lg-0 mt-xl-0 mt-xxl-0 ps-0 ps-lg-4 ps-xl-4 ps-xxl-4">
+        <div class="row p-4" id="main-baner-two">
+          <div class=" text-light fs-4 ">MembershipOpen Now
+            <p class="fs-6 mb-0">Memberships are now open for</p>
+            <p class="fs-6">purchases..</p>
+            <button type="button" class="btn go-to btn-lg text-light">Sign up Now</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- Order Food Online two card end -->
+
+  <!-- Quick Searches section start-->
+  <div class="text-center py-5">
+    <h2> Quick Searches </h2>
+    <h6 class="pt-3 text-muted"> Discover Restauranrs By Type of Meal </h6>
+  </div>
+
+  <div class="card container">
+    <div class="card-body">
+      <div class="container">
+        <div class="row">
+          <div class="col ">
+            <div class="p-3 text-center"><img src="/images/meal-2.svg" class=" w-25" alt="...">
+              <p>Lunch</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3 text-center"><img src="/images/meal-3.svg" class=" w-25" alt="...">
+              <p>Dinner</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3 text-center "><img src="/images/meal-4.svg" class=" w-25" alt="...">
+              <p>Cafe's</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3 text-center "><img src="/images/meal-5.svg" class=" w-25" alt="...">
+              <p>Delivery</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Quick Searches section start end-->
+
+  <!-- Featured Restaurants sections -->
+  <div class="container pt-4">
+    <div class="row">
+      <div class="col-12 col-lg-8 col-xl-8 col-xxl-8">
+        <div class="fs-4 fw-bold py-2">Featured Restaurants</div>
+        <div class="card">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <div class="row">
+                      <div class="col">
+                        <img src="/images/logo_01.jpg" class="me-2" alt="...">
+                      </div>
+                      <div class="col-8">
+                        <p class="mb-0"> Food Roster </p>
+                        <p class="mb-0">Indian Restaurant</p>
+                      </div>
+                    </div>
+                    <span></span>
+                  </div>
+                  <div class="col text-center">
+                    <h6 class="pt-3"><i class="bi bi-geo-alt-fill main-color"></i> <span class="main-color"></span>
+                      <span class="text-muted">New York City,1569</span>
+                    </h6>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn main-color-bg btn-lg text-light float-end rounded-0"> View
+                      Menu</button>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <div class="row">
+                      <div class="col">
+                        <img src="/images/logo_06.jpg" class="me-2" alt="...">
+                      </div>
+                      <div class="col-8">
+                        <p class="mb-0"> Food Roster </p>
+                        <p class="mb-0">Indian Restaurant</p>
+                      </div>
+                    </div>
+                    <span></span>
+                  </div>
+                  <div class="col text-center">
+                    <h6 class="pt-3"><i class="bi bi-geo-alt-fill main-color"></i> <span class="main-color"></span>
+                      <span class="text-muted">New York City,1569</span>
+                    </h6>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn main-color-bg btn-lg text-light float-end rounded-0"> View
+                      Menu</button>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <div class="row">
+                      <div class="col">
+                        <img src="/images/logo_04.jpg" class="me-2" alt="...">
+                      </div>
+                      <div class="col-8">
+                        <p class="mb-0"> Food Roster </p>
+                        <p class="mb-0">Indian Restaurant</p>
+                      </div>
+                    </div>
+                    <span></span>
+                  </div>
+                  <div class="col text-center">
+                    <h6 class="pt-3"><i class="bi bi-geo-alt-fill main-color"></i> <span class="main-color"></span>
+                      <span class="text-muted">New York City,1569</span>
+                    </h6>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn main-color-bg btn-lg text-light float-end rounded-0"> View
+                      Menu</button>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <div class="row">
+                      <div class="col">
+                        <img src="/images/logo_02.jpg" class="me-2" alt="...">
+                      </div>
+                      <div class="col-8">
+                        <p class="mb-0"> Food Roster </p>
+                        <p class="mb-0">Indian Restaurant</p>
+                      </div>
+                    </div>
+                    <span></span>
+                  </div>
+                  <div class="col text-center">
+                    <h6 class="pt-3"><i class="bi bi-geo-alt-fill main-color"></i> <span class="main-color"></span>
+                      <span class="text-muted">New York City,1569</span>
+                    </h6>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn main-color-bg btn-lg text-light float-end rounded-0"> View
+                      Menu</button>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <div class="row">
+                      <div class="col">
+                        <img src="/images/logo_03.jpg" class="me-2" alt="...">
+                      </div>
+                      <div class="col-8">
+                        <p class="mb-0"> Food Roster </p>
+                        <p class="mb-0">Indian Restaurant</p>
+                      </div>
+                    </div>
+                    <span></span>
+                  </div>
+                  <div class="col text-center">
+                    <h6 class="pt-3"><i class="bi bi-geo-alt-fill main-color"></i> <span class="main-color"></span>
+                      <span class="text-muted">New York City,1569</span>
+                    </h6>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn main-color-bg btn-lg text-light float-end rounded-0"> View
+                      Menu</button>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4 col-xl-4 col-xxl-4">
+        <div class="fs-4 fw-bold py-2"> Treading This Week Sellers</div>
+        <div class="card">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col">
+                  <div class="row">
+                    <div class="col">
+                      <img src="/images/logo_06.jpg" class="me-2" alt="...">
+                    </div>
+                    <div class="col">
+                      <p class="mb-0"> Food Roster </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <button type="button" class="btn main-color-bg btn-lg text-light float-end rounded-0"> View
+                    Menu</button>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col">
+                  <div class="row">
+                    <div class="col">
+                      <img src="/images/logo_01.jpg" class="me-2" alt="...">
+                    </div>
+                    <div class="col">
+                      <p class="mb-0"> Food Roster </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <button type="button" class="btn main-color-bg btn-lg text-light float-end rounded-0"> View
+                    Menu</button>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col">
+                  <div class="row">
+                    <div class="col">
+                      <img src="/images/logo_04.jpg" class="me-2" alt="...">
+                    </div>
+                    <div class="col">
+                      <p class="mb-0"> Food Roster </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <button type="button" class="btn main-color-bg btn-lg text-light float-end rounded-0"> View
+                    Menu</button>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col">
+                  <div class="row">
+                    <div class="col">
+                      <img src="/images/logo_02.jpg" class="me-2" alt="...">
+                    </div>
+                    <div class="col">
+                      <p class="mb-0"> Food Roster </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <button type="button" class="btn main-color-bg btn-lg text-light float-end rounded-0"> View
+                    Menu</button>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col">
+                  <div class="row">
+                    <div class="col">
+                      <img src="/images/logo_06.jpg" class="me-2" alt="...">
+                    </div>
+                    <div class="col">
+                      <p class="mb-0"> Food Roster </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <button type="button" class="btn main-color-bg btn-lg text-light float-end rounded-0"> View
+                    Menu</button>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Featured Restaurants sections end-->
+
+  <div class="text-center py-5">
+    <h2> Explore Your Favorite Recipes </h2>
+
+  </div>
+
+  <!-- Explore Your Favorite Recipes sction -->
+
+  <div class="container-fluid">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-12 col-lg-4 col-xl-4 col-xxl-4 me-2 me-lg-0 me-xl-0 me-xxl-0 ">
+          <div class=""><img src="/images/recipe_01.jpg" alt="..."></div>
+        </div>
+        <div class="col-12 col-lg-4 col-xl-4 col-xxl-4 me-2 me-lg-0 me-xl-0 me-xxl-0 ">
+          <div class=""><img src="/images/recipe_02.jpg" alt="..."></div>
+        </div>
+        <div class="col-12 col-lg-4 col-xl-4 col-xxl-4 me-2 me-lg-0 me-xl-0 me-xxl-0 ">
+          <div class=""><img src="/images/recipe_03.jpg" alt="..."></div>
+        </div>
+      </div>
+      <div class="row mt-3 g-4">
+        <div class="col-12 col-lg-4 col-xl-4 col-xxl-4 me-2 me-lg-0 me-xl-0 me-xxl-0 ">
+          <div class=""><img src="/images/recipe_04.jpg" alt="..."></div>
+        </div>
+        <div class="col-12 col-lg-4 col-xl-4 col-xxl-4 me-2 me-lg-0 me-xl-0 me-xxl-0 ">
+          <div class=""><img src="/images/recipe_05.jpg" alt="..."></div>
+        </div>
+        <div class="col-12 col-lg-4 col-xl-4 col-xxl-4 me-2 me-lg-0 me-xl-0 me-xxl-0 ">
+          <div class=""><img src="/images/recipe_06.jpg" alt="..."></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Explore Your Favorite Recipes sections end -->
+
+  <div class="text-center py-5">
+    <button type="button" class="btn main-color-bg  btn-lg text-light rounded-0 ">Show All</button>
+  </div>
+
+  <!-- Choose, Order and Checkout and image section -->
+
+  <div class="container-fluid" id="foot-section">
+    <div class="container">
+      <div class="row">
+        <div class="col py-5 d-none  d-sm-none d-lg-block">
+          <div class="fs-2 text-light fw-bold pt-4">
+            Natto in Your Pocket
+          </div>
+          <div class="text-light pb-4">
+            We’ll send you a link, open it on your phone to download the app.
+            Enter your email address
+          </div>
+          <div class="">
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn bg-dark text-light" type="submit">Search</button>
+            </form>
+          </div>
+          <div class="container pt-5">
+            <div class="row">
+              <div class="col">
+                <div class="row">
+                  <div class="col">
+                    <img src="/images/app-store.png" class="" alt="...">
+                  </div>
+                  <div class="col">
+                    <img src="/images/play-store.png" class="" alt="...">
+                  </div>
+                </div>    
+              </div>
+              <div class="col-2">
+              </div>
+            </div>
+           
+          </div>
+        </div>
+        <div class="col-1">
+        </div>
+        <div class="col pt-5">
+          <div>
+            <img class="" src="images/mobile (1).png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Choose, Order and Checkout and image section end -->
+
+  <!-- footer sections start -->
+  <footer class="footer text-light bg-dark pt-5">
+    <div class="subscribe-now line">
+
+      <div class="container">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <p>Connect with us for update and offers.</p>
+            </div>
+            <div class="col">
+
+            </div>
+            <div class="col text-end ">
+              <div class="dropdown border-light">
+                <button class="btn bg-dark dropdown-toggle text-light border" type="button" id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="bi bi-globe"></i> English
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container pt-3">
+          <div class="input-group mb-3 w-25 ">
+            <input type="text" class="form-control" placeholder="Enter Your Location" aria-label="Recipient's username"
+              aria-describedby="button-addon2">
+            <button class="btn main-color-bg text-light" type="button" id="button-addon2">Search</button>
+          </div>
+        </div>
+        <div class="row justify-content-between">
+          <div class="col-lg-5 col-md-6">
+            <div class="subscribe-newsletter">
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3">
+            <div class="language">
+              <form method="post" enctype="multipart/form-data" id="form-language">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="border-top mb-5"></div> -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
+          <div class="img-title">
+            <img class="w-50" src="images/logo-2.svg" alt="">
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum leo at finibus ornare.
+            Aliquam gravida condimentum neque, vel ultrices purus dignissim a. </p>
+        </div>
+        <div class="col-md-3 col-sm-12 col-xs-12">
+          <div class="link-title">
+            <h4>About Natto</h4>
+            <ul class="links">
+              <li><a>About Us</a></li>
+              <li><a>Careers</a></li>
+              <li><a>Blog</a></li>
+              <li><a>Developers</a></li>
+              <li><a>Mobile Apps</a></li>
+              <li><a>Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
+          <div class="link-title">
+            <h4>Business</h4>
+            <ul class="links">
+              <li><a>Add a Restaurant</a></li>
+              <li><a>Buniess Order Guidelines</a></li>
+              <li><a>Orders</a></li>
+              <li><a>Book</a></li>
+              <li><a>Trace</a></li>
+              <li><a>Advertise</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
+          <div class="link-title">
+            <h4>Partner With Us</h4>
+            <ul class="links">
+              <li><a>For Restaurants</a></li>
+              <li><a>For Driver</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="border-top my-3"></div>
+    <div class="container">
+      <div class="container">
+        <div class="row py-2">
+          <div class="col">
+            <div class="container">
+              <div class="row">
+                <div class="col">
+                  Privacy
+                </div>
+                <div class="col">
+                  Terms
+                </div>
+                <div class="col">
+                  Sitemap
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+
+          </div>
+          <div class="col">
+            <img class="" src="images/cards.png " alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="border-top mb-2"></div>
+    <div class="text-light text-center fs-6">
+      Copyright 2019 Natto</a> by Gambol. All Rights
+    </div>
+  </footer>
+
+  <!-- footer sections end -->
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+{% extends "base/base.html" %} {% load static %} {% block maincontent %}
+<!-- main content -->
+<script
+  referrerpolicy="no-referrer"
+  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+  integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+  crossorigin="anonymous"
+></script>
+<style>
+  .card-img-top {
+    height: 290px;
+  }
+</style>
+
+<script>
+  $(document).ready(function () {
+    $("document").ready(function () {
+      var form = $("#name").serialize();
+      console.log(form);
+      $.ajax({
+        type: "GET",
+        url: "/product/product1/",
+        success: function (response) {
+          var dynamic = document.querySelector(".card_1");
+          for (let i = 0; i < response.category.length; i++) {
+            var fetch = document.querySelector(".card_1").innerHTML;
+            dynamic.innerHTML =
+              `
+                            <div class="card col-3 m-5" >
+                            <img src="` +
+              response.category[i].image +
+              `" class="card-img-top" alt="...">
+                            <div class="card-body text-dark">
+                              <h5 class="card-title">` +
+              response.category[i].name +
+              ` </h5>
+                              <p class="card-text">` +
+              response.category[i].description +
+
+              `</p>
+                              <p class="card-text"> $` +
+              response.category[i].price +
+
+              `</p>
+
+                              <p class="card-text">` +
+              {% comment %} response.category[i].category + {% endcomment %}
+              `</p>
+                              <a href="/cart" class="btn btn-outline-dark">Add to Cart</a>
+                            </div>
+
+                          </div>` +
+              fetch;
+          }
+        },
+        error: function (ex) {
+          alert(ex.responseText);
+        },
+      });
+      return false;
+    });
+  });
+</script>
+
+<div class="container text-center w-75">
+  <img src="../.././static/media/images/mac1.jpg" class="img-fluid" alt="..." />
+</div>
+
+<div class="container pt-4">
+  <div class="row">
+    <div class="bg-light card_1 row h-100"></div>
+  </div>
+</div>
+
+<div class="container text-center w-75 pt-4">
+  <img src="../.././static/media/images/mac2.jpg" class="img-fluid" alt="..." />
+</div>
+
+<!-- main content end-->
+{% endblock %}
